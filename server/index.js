@@ -12,5 +12,5 @@ app.get("/health",(req,res) => {
 })
 
 app.listen(process.env.PORT, () => {
-    console.log("server is started")
+    console.log(`server is started ${process.env.PORT}`)
 })
